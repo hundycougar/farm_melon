@@ -1,15 +1,3 @@
--- farm_melon.lua
--- CC:Tweaked turtle melon harvester with:
---  - width/length from CLI args
---  - auto-refuel from SAME chest behind home
---  - mid-run inventory dump when full
---  - returns to exact location + direction after dumping
---
--- Assumes:
---  - Turtle starts 1 block ABOVE farm surface
---  - At the NW corner of the rectangle (conceptually)
---  - Facing INTO the farm
---  - Chest is directly BEHIND the turtle at start/home
 print("Hello from line 1")
 local WIDTH  = 5
 local LENGTH = 5
