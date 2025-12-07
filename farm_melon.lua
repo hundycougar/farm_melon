@@ -15,11 +15,6 @@ local args = { ... }
 local WIDTH  = 5
 local LENGTH = 5
 
-if WIDTH < 1 or LENGTH < 1 then
-  print("Usage: farm_melon.lua <width> <length>")
-  return
-end
-
 -- Position tracking relative to home
 -- dir: 0=E, 1=S, 2=W, 3=N
 local posX, posZ, dir = 0, 0, 0
