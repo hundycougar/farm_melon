@@ -12,8 +12,8 @@
 --  - Chest is directly BEHIND the turtle at start/home
 
 local args = { ... }
-local WIDTH  = tonumber(args[1]) or 5
-local LENGTH = tonumber(args[2]) or 5
+local WIDTH  = 5
+local LENGTH = 5
 
 if WIDTH < 1 or LENGTH < 1 then
   print("Usage: farm_melon.lua <width> <length>")
