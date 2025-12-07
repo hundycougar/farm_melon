@@ -11,7 +11,6 @@
 --  - Facing INTO the farm
 --  - Chest is directly BEHIND the turtle at start/home
 
-local args = { ... }
 local WIDTH  = 5
 local LENGTH = 5
 
