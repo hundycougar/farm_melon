@@ -10,7 +10,7 @@
 --  - At the NW corner of the rectangle (conceptually)
 --  - Facing INTO the farm
 --  - Chest is directly BEHIND the turtle at start/home
-
+print("Hello from line 1")
 local WIDTH  = 5
 local LENGTH = 5
 
